@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FriendZone. ¿Estas en ella?</title> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Morris js, graficadora -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.css" rel="stylesheet">
+
+  <!-- Styles Test -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+
+	<section class="features" id="recurso">
+	    <div class="container">
+	      <h1>Recurso educativo</h1>
+	      <table class="table">
+	        <thead>
+	          <tr class="table-success" id="namesTable">
+	            <th>x</th>
+	            <th>f(x)</th>
+	          </tr>
+	        </thead>
+	        <tbody id="nuevasFilas">
+	        </tbody>
+	      </table>
+
+	      <button type="button" id="btnAdd" class="btn btn-outline-primary" onclick="addFila();">Añadir fila</button>
+
+	      <button type="button" class="btn btn-primary" onclick="graphFX();">Graficar f(x)</button>
+
+	      <button type="button" class="btn btn-outline-primary" id="btnGenAcum" onclick="generarAcum();">Generar acumulativa</button>
+
+	      <button style="display: none;" id="btnAcumGraph" type="button" class="btn btn-primary" onclick="graphAcum();">Graficar acumulativa</button>
+
+	      <div style="margin-top: 15px;" id="graficaTitle"></div>
+
+	      <div id="graficaFX" style="height: 250px;"></div>
+
+	      <div style="margin-top: 15px;" id="graficaAcumTitle"></div>
+
+	      <div id="graficaAcum" style="height: 250px;"></div>
+
+	    </div>
+	  </section>
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="js/new-age.min.js"></script>
+
+	  <!-- Mi super script para interraccion con user -->
+	  <script src="js/scriptUsr.js"></script>
+
+</body>
+</html>

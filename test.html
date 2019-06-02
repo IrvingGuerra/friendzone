@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FriendZone. ¿Estas en ella?</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+</head>
+<body class="bg-info">
+
+  <div class="container-fluid bg-info">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h3 style="line-height: 150%;"><span class="label label-warning" id="qid">1</span> <font id="pregunta">En la noche cuando la conversación termina es porque…</font></h3>
+          </div>
+          <div class="modal-body" id="preguntas">
+            <div class="col-xs-3 col-xs-offset-5">
+               <div id="loadbar" style="display: none;">
+                  <div class="blockG" id="rotateG_01"></div>
+                  <div class="blockG" id="rotateG_02"></div>
+                  <div class="blockG" id="rotateG_03"></div>
+                  <div class="blockG" id="rotateG_04"></div>
+                  <div class="blockG" id="rotateG_05"></div>
+                  <div class="blockG" id="rotateG_06"></div>
+                  <div class="blockG" id="rotateG_07"></div>
+                  <div class="blockG" id="rotateG_08"></div>
+              </div>
+            </div>
+            <div class="quiz" id="quiz" data-toggle="buttons">
+               <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1"><font id="a">Se ocupa</font></label>
+               <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2"><font id="b">Se queda dormido/a</font></label>
+               <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3"><font id="c">Ya es mega tarde y debemos dormir ambos</font></label>
+            </div>
+          </div>
+          <div class="modal-body" id="resultado" style="display: none">
+            <h4>Estás instaladísima en el país de la friendzone, podrías incluso ser la presidenta de la comunidad. Aprende a leer las señales correctas y no te claves, chicos hay muchísimos y quizá él será sólo tú amigo pero ya vendrá el bueno. Da lo que recibes y no te quiebres la cabeza pensando en alguien que te ve con ojos de amistad y no otra cosa.</h4>
+            <img src="img/respuesta1.jpg" style="width: 100%;margin-top: 25px;">
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+  
