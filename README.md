@@ -9,7 +9,7 @@ Este repositorio contiene:
   - HTML, CSS, y JS de una WEB completa y responsive.
 
 La web contiene las siguientes caracteristicas
-  - Recurso educativ (Graficador de funciones acumulativas)
+  - Recurso educativo (Graficador de funciones acumulativas)
   - TEST de friendzone - El test te dirá automaticamente si estas o no en la friendzone
 
 ## Recursos extras!
