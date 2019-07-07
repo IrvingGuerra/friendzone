@@ -1,4 +1,4 @@
-# Practicas: FriendZone
+# FriendZone
 
 Proyecto de la materia Probabilidad y Estadistica, con la profesora Elena Fabiola Ruiz Ledesma, de la Escuela Superior de Computo
 
